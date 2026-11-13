@@ -1,0 +1,44 @@
+{
+ "_help": "Website-only settings, matched by category name (or Ledger id). 'blurb' is the one-line description, 'seo_name' the search-friendly name used in page titles, 'icon' an SVG path. 'order' sets the order; 'hide_services' lists service IDs to keep off the site. A new category with no entry here still shows, with a default icon.",
+ "order": [
+  "Solar Power",
+  "Battery Storage",
+  "EV Solutions",
+  "Smart Energy",
+  "Infrastructure",
+  "AI & Digital"
+ ],
+ "categories": {
+  "Solar Power": {
+   "blurb": "On-grid, off-grid and hybrid rooftop solar systems, from site survey and design to installation and net-metering support.",
+   "seo_name": "Rooftop solar",
+   "icon": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4\"/>"
+  },
+  "Battery Storage": {
+   "blurb": "Home and commercial battery energy storage (BESS) for backup power and better use of solar energy.",
+   "seo_name": "Battery energy storage",
+   "icon": "<rect x=\"2\" y=\"7\" width=\"18\" height=\"10\" rx=\"2\"/><path d=\"M22 11v2M7 10v4M11 10v4\"/>"
+  },
+  "EV Solutions": {
+   "blurb": "EV charging points for homes, apartments, offices and commercial sites.",
+   "seo_name": "EV charging installation",
+   "icon": "<path d=\"M13 2L4 14h7l-1 8 9-12h-7z\"/>"
+  },
+  "Smart Energy": {
+   "blurb": "Energy audits, monitoring and power electronics that cut waste and lower electricity bills.",
+   "seo_name": "Energy audits & smart energy",
+   "icon": "<path d=\"M3 12h4l3-8 4 16 3-8h4\"/>"
+  },
+  "Infrastructure": {
+   "blurb": "Electrical and energy infrastructure for new buildings and upgrades.",
+   "seo_name": "Electrical infrastructure",
+   "icon": "<path d=\"M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6\"/>"
+  },
+  "AI & Digital": {
+   "blurb": "Data-driven monitoring and reporting for energy systems.",
+   "seo_name": "Energy monitoring & AI reporting",
+   "icon": "<rect x=\"5\" y=\"5\" width=\"14\" height=\"14\" rx=\"2\"/><path d=\"M9 9h6v6H9zM9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3\"/>"
+  }
+ },
+ "hide_services": []
+}

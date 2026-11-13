@@ -1,0 +1,123 @@
+{
+ "company_id": "CO-KFE",
+ "exported": "2026-11-14",
+ "source": "Starter list from the KFNXT website. Replaced by KF Ledger once KFNXT services are added there (company CO-KFE).",
+ "categories": [
+  {
+   "id": "NX-1",
+   "name": "Solar Power"
+  },
+  {
+   "id": "NX-2",
+   "name": "Battery Storage"
+  },
+  {
+   "id": "NX-3",
+   "name": "EV Solutions"
+  },
+  {
+   "id": "NX-4",
+   "name": "Smart Energy"
+  },
+  {
+   "id": "NX-5",
+   "name": "Infrastructure"
+  },
+  {
+   "id": "NX-6",
+   "name": "AI & Digital"
+  }
+ ],
+ "services": [
+  {
+   "id": "NX-SV-001",
+   "category_id": "NX-1",
+   "name": "On-grid rooftop solar"
+  },
+  {
+   "id": "NX-SV-002",
+   "category_id": "NX-1",
+   "name": "Off-grid rooftop solar"
+  },
+  {
+   "id": "NX-SV-003",
+   "category_id": "NX-1",
+   "name": "Hybrid rooftop solar"
+  },
+  {
+   "id": "NX-SV-004",
+   "category_id": "NX-1",
+   "name": "Site survey and system design"
+  },
+  {
+   "id": "NX-SV-005",
+   "category_id": "NX-1",
+   "name": "Net-metering support"
+  },
+  {
+   "id": "NX-SV-006",
+   "category_id": "NX-2",
+   "name": "Home battery energy storage"
+  },
+  {
+   "id": "NX-SV-007",
+   "category_id": "NX-2",
+   "name": "Commercial battery energy storage (BESS)"
+  },
+  {
+   "id": "NX-SV-008",
+   "category_id": "NX-2",
+   "name": "Backup power for solar systems"
+  },
+  {
+   "id": "NX-SV-009",
+   "category_id": "NX-3",
+   "name": "Home EV charging"
+  },
+  {
+   "id": "NX-SV-010",
+   "category_id": "NX-3",
+   "name": "Apartment EV charging"
+  },
+  {
+   "id": "NX-SV-011",
+   "category_id": "NX-3",
+   "name": "Office and commercial EV charging"
+  },
+  {
+   "id": "NX-SV-012",
+   "category_id": "NX-4",
+   "name": "Energy audits"
+  },
+  {
+   "id": "NX-SV-013",
+   "category_id": "NX-4",
+   "name": "Energy monitoring"
+  },
+  {
+   "id": "NX-SV-014",
+   "category_id": "NX-4",
+   "name": "Power electronics"
+  },
+  {
+   "id": "NX-SV-015",
+   "category_id": "NX-5",
+   "name": "Electrical infrastructure for new buildings"
+  },
+  {
+   "id": "NX-SV-016",
+   "category_id": "NX-5",
+   "name": "Electrical and energy upgrades"
+  },
+  {
+   "id": "NX-SV-017",
+   "category_id": "NX-6",
+   "name": "Energy system monitoring"
+  },
+  {
+   "id": "NX-SV-018",
+   "category_id": "NX-6",
+   "name": "Data-driven energy reporting"
+  }
+ ]
+}
